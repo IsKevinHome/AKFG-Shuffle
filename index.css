@@ -1,21 +1,15 @@
 #content {
 	display: grid;
-	grid-template-columns: repeat(3, minmax(auto, auto));
-	grid-template-rows: repeat(3, minmax(auto, auto));
+	grid-template-columns: repeat(2, minmax(auto, auto));
+	grid-template-rows: repeat(2, minmax(auto, auto));
 	/* grid-auto-rows: minmax(200px, auto);*/
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
-	max-width: auto;
-	margin: 0 auto;
+	max-width: 1000px;
+	margin: auto;
+	justify-content: center;
 }
 
 #content div {
-	/* background: #d7e6ff;*/
 	padding: 10px;
-}
-
-#content div:nth-child(even) {
-	background: #eeeeee;
 }
 
 body {
@@ -27,13 +21,14 @@ img {
 
 table {
 	border-collapse: collapse;
+	background-color: white;
 }
 
 td,
 tr,
 th {
 	border: 1px solid #999;
-	padding: 0.25rem;
+	padding: 0.3rem;
 	text-align: left;
 }
 
