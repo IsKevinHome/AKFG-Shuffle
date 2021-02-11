@@ -32,6 +32,10 @@ function genAlbum(object) {
 	let about = document.getElementById('descrip');
 	about.innerHTML = object.description;
 	// running this will make it so the table is it's own thing
+
+	let spotify = document.getElementById('player');
+	spotify.src = object.spotify;
+
 	// return table;
 }
 
@@ -52,8 +56,7 @@ const KIMI_TSUNAGI_FIVE_M = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Kimi_Tsunagi_Five_M.png',
-	iframe:
-		'<iframe src="https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>',
+	spotify: 'https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB',
 };
 
 const SOL_FA = {
@@ -73,6 +76,7 @@ const SOL_FA = {
 	],
 	description: 'Album description goes here...',
 	img: './img/sol-Fa.png',
+	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
 
 const FANCLUB = {
@@ -91,6 +95,7 @@ const FANCLUB = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Fan Club.png',
+	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
 
 const WORLD_WORLD_WORLD = {
@@ -111,6 +116,7 @@ const WORLD_WORLD_WORLD = {
 	],
 	description: 'Album description goes here...',
 	img: './img/World World World.png',
+	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
 
 const SURF_BUNGAKU_KAMAKURA = {
@@ -128,6 +134,7 @@ const SURF_BUNGAKU_KAMAKURA = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Surf Bungaku Kamakura.png',
+	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
 };
 
 const MAGIC_DISK = {
@@ -148,6 +155,7 @@ const MAGIC_DISK = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Magic Disk.png',
+	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
 
 const LANDMARK = {
@@ -167,6 +175,7 @@ const LANDMARK = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Landmark.png',
+	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
 
 const HOMETOWN = {
@@ -184,6 +193,7 @@ const HOMETOWN = {
 	],
 	description: 'Album description goes here...',
 	img: './img/Hometown.png',
+	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
 };
 
 // Below puts the objects into an array, shuffles, and picks one.

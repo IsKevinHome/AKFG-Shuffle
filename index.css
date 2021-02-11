@@ -3,7 +3,7 @@
 	grid-template-columns: repeat(2, minmax(auto, auto));
 	grid-template-rows: repeat(2, minmax(auto, auto));
 	/* grid-auto-rows: minmax(200px, auto);*/
-	max-width: 1000px;
+	max-width: auto;
 	margin: auto;
 	justify-content: center;
 }
@@ -12,6 +12,14 @@
 	padding: 10px;
 }
 
+.descrip {
+	text-align: center;
+}
+
+.player {
+	display: flex;
+	justify-content: center;
+}
 body {
 	background: #eeeeee;
 }
