@@ -24,11 +24,18 @@ function genAlbum(object) {
 		table.appendChild(row);
 	});
 
+	if (object === FEEDBACKFILE || object === FEEDBACKFILE2) {
+		table.style.fontSize = '12px';
+	} else {
+		table.style.fontSize = '16px';
+	}
+
 	// Appends the album art
 	let albumArt = document.getElementById('image');
 	albumArt.src = object.img;
 
 	//generates our description
+
 	let about = document.getElementById('descrip');
 	about.innerHTML = object.description;
 	// running this will make it so the table is it's own thing
@@ -61,7 +68,6 @@ const KIMI_TSUNAGI_FIVE_M = {
 	img: '/img/Kimi_Tsunagi_Five_M.png',
 	spotify: 'https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB',
 };
-
 const SOL_FA = {
 	tracks: [
 		{ 'No.': 1, Title: '振動', Length: '2:27' },
@@ -81,7 +87,6 @@ const SOL_FA = {
 	img: '/img/sol-Fa.png',
 	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
-
 const FANCLUB = {
 	tracks: [
 		{ 'No.': 1, Title: '暗号のワルツ', Length: '4:25' },
@@ -100,7 +105,6 @@ const FANCLUB = {
 	img: '/img/Fan Club.png',
 	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
-
 const WORLD_WORLD_WORLD = {
 	tracks: [
 		{ 'No.': 1, Title: 'ワールド ワールド ワールド', Length: '1:18' },
@@ -121,7 +125,6 @@ const WORLD_WORLD_WORLD = {
 	img: '/img/World World World.png',
 	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
-
 const SURF_BUNGAKU_KAMAKURA = {
 	tracks: [
 		{ 'No.': 1, Title: '藤沢ルーザー', Length: '2:45' },
@@ -139,7 +142,6 @@ const SURF_BUNGAKU_KAMAKURA = {
 	img: '/img/Surf Bungaku Kamakura.png',
 	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
 };
-
 const MAGIC_DISK = {
 	tracks: [
 		{ 'No.': 1, Title: '新世紀のラブソング', Length: '5:14' },
@@ -160,7 +162,6 @@ const MAGIC_DISK = {
 	img: '/img/Magic Disk.png',
 	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
-
 const LANDMARK = {
 	tracks: [
 		{ 'No.': 1, Title: 'All Right Part 2', Length: '3:34' },
@@ -180,7 +181,6 @@ const LANDMARK = {
 	img: '/img/Landmark.png',
 	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
-
 const HOMETOWN = {
 	tracks: [
 		{ 'No.': 1, Title: 'クロックワーク', Length: '4:02' },
@@ -198,7 +198,6 @@ const HOMETOWN = {
 	img: '/img/Hometown.png',
 	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
 };
-
 const FEEDBACKFILE = {
 	tracks: [
 		{ 'No.': 1, Title: 'エントランス', Length: '3:58' },
