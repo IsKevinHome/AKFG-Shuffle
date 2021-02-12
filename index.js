@@ -65,7 +65,7 @@ const KIMI_TSUNAGI_FIVE_M = {
 	release.  Released on November 19, 2003.  The album released two
 	successful singles in Mirai No Kakera and Kimi To Iu Hana, and went
 	on to sell over 250,000 copies.  `,
-	img: '/img/Kimi_Tsunagi_Five_M.png',
+	img: './img/Kimi_Tsunagi_Five_M.png',
 	spotify: 'https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB',
 };
 const SOL_FA = {
@@ -84,7 +84,7 @@ const SOL_FA = {
 		{ 'No.': 12, Title: 'ループ&ループ', Length: '3:45' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/sol-Fa.png',
+	img: './img/sol-Fa.png',
 	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
 const FANCLUB = {
@@ -102,7 +102,7 @@ const FANCLUB = {
 		{ 'No.': 11, Title: 'タイトロープ', Length: '5:28' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Fan Club.png',
+	img: './img/Fan Club.png',
 	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
 const WORLD_WORLD_WORLD = {
@@ -122,7 +122,7 @@ const WORLD_WORLD_WORLD = {
 		{ 'No.': 13, Title: '新しい世界', Length: '3:18' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/World World World.png',
+	img: './img/World World World.png',
 	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
 const SURF_BUNGAKU_KAMAKURA = {
@@ -159,7 +159,7 @@ const MAGIC_DISK = {
 		{ 'No.': 13, Title: 'ソラニン', Length: '4:33' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Magic Disk.png',
+	img: './img/Magic Disk.png',
 	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
 const LANDMARK = {
@@ -178,7 +178,7 @@ const LANDMARK = {
 		{ 'No.': 12, Title: 'アネモネの咲く春に', Length: '5:01' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Landmark.png',
+	img: './img/Landmark.png',
 	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
 const HOMETOWN = {
@@ -195,7 +195,7 @@ const HOMETOWN = {
 		{ 'No.': 10, Title: 'ボーイズ&ガールズ', Length: '4:40' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Hometown.png',
+	img: './img/Hometown.png',
 	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
 };
 const FEEDBACKFILE = {
@@ -222,7 +222,7 @@ const FEEDBACKFILE = {
 		{ 'No.': 16, Title: 'Re:Re: (2006 @Yokohama Arena)', Length: '5:03' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Feedback File.png',
+	img: './img/Feedback File.png',
 	spotify: 'https://open.spotify.com/embed/album/4ys4lrEwbsYH5gBjU1WEsC',
 };
 const HOKAIAMPLIFIER = {
