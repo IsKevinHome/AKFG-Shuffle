@@ -235,7 +235,7 @@ const HOKAIAMPLIFIER = {
 		{ 'No.': 6, Title: '12', Length: '4:36' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Hokai Amplifier.png',
+	img: './img/Hokai Amplifier.png',
 	spotify: 'https://open.spotify.com/embed/album/1BZa5KjEDzfU2ut7QwiUHo',
 };
 const MADAMINUASHITANI = {
@@ -248,7 +248,7 @@ const MADAMINUASHITANI = {
 		{ 'No.': 6, Title: '未だ見ぬ明日に', Length: '4:01' },
 	],
 	description: 'Album description goes here...',
-	img: '/img/Mada Minu Ashita Ni.png',
+	img: './img/Mada Minu Ashita Ni.png',
 	spotify: 'https://open.spotify.com/embed/album/2xqPSkjzTFEjOXrIUmj7fF',
 };
 const FEEDBACKFILE2 = {
@@ -280,7 +280,7 @@ const FEEDBACKFILE2 = {
 		},
 	],
 	description: 'Album description goes here...',
-	img: '/img/Feedback File 2.png',
+	img: './img/Feedback File 2.png',
 	spotify: 'https://open.spotify.com/embed/album/7w3E74TxKJDKzUXOcN9cxU',
 };
 
