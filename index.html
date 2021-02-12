@@ -13,16 +13,18 @@
 			</button>
 		</div>
 		<div id="content">
-			<div data-tilt>
-				<img src="" id="image" />
+			<div class="horiz">
+				<img src="" id="image" data-tilt />
 			</div>
-			<div>
+			<div class="horiz">
 				<table id="tracks"></table>
 			</div>
-			<div class="descrip">
-				<p id="descrip"></p>
-			</div>
 		</div>
+
+		<div class="descrip">
+			<p id="descrip"></p>
+		</div>
+
 		<div class="player">
 			<iframe
 				id="player"
@@ -34,7 +36,6 @@
 				allow="encrypted-media"
 			></iframe>
 		</div>
-
 		<script src="index.js"></script>
 		<script type="text/javascript" src="vanilla-tilt.js"></script>
 	</body>

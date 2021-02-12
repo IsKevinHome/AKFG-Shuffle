@@ -54,8 +54,11 @@ const KIMI_TSUNAGI_FIVE_M = {
 		{ 'No.': 11, Title: '君という花', Length: '6:10' },
 		{ 'No.': 12, Title: 'ノーネーム', Length: '5:00' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Kimi_Tsunagi_Five_M.png',
+	description: `Asian Kung-Fu Generation’s first studio album, and their second major-label
+	release.  Released on November 19, 2003.  The album released two
+	successful singles in Mirai No Kakera and Kimi To Iu Hana, and went
+	on to sell over 250,000 copies.  `,
+	img: '/img/Kimi_Tsunagi_Five_M.png',
 	spotify: 'https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB',
 };
 
@@ -75,7 +78,7 @@ const SOL_FA = {
 		{ 'No.': 12, Title: 'ループ&ループ', Length: '3:45' },
 	],
 	description: 'Album description goes here...',
-	img: './img/sol-Fa.png',
+	img: '/img/sol-Fa.png',
 	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
 
@@ -94,7 +97,7 @@ const FANCLUB = {
 		{ 'No.': 11, Title: 'タイトロープ', Length: '5:28' },
 	],
 	description: 'Album description goes here...',
-	img: './img/Fan Club.png',
+	img: '/img/Fan Club.png',
 	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
 
@@ -115,7 +118,7 @@ const WORLD_WORLD_WORLD = {
 		{ 'No.': 13, Title: '新しい世界', Length: '3:18' },
 	],
 	description: 'Album description goes here...',
-	img: './img/World World World.png',
+	img: '/img/World World World.png',
 	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
 
@@ -133,7 +136,7 @@ const SURF_BUNGAKU_KAMAKURA = {
 		{ 'No.': 10, Title: '鎌倉グッドバイ', Length: '4:31' },
 	],
 	description: 'Album description goes here...',
-	img: './img/Surf Bungaku Kamakura.png',
+	img: '/img/Surf Bungaku Kamakura.png',
 	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
 };
 
@@ -154,7 +157,7 @@ const MAGIC_DISK = {
 		{ 'No.': 13, Title: 'ソラニン', Length: '4:33' },
 	],
 	description: 'Album description goes here...',
-	img: './img/Magic Disk.png',
+	img: '/img/Magic Disk.png',
 	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
 
@@ -174,7 +177,7 @@ const LANDMARK = {
 		{ 'No.': 12, Title: 'アネモネの咲く春に', Length: '5:01' },
 	],
 	description: 'Album description goes here...',
-	img: './img/Landmark.png',
+	img: '/img/Landmark.png',
 	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
 
@@ -192,12 +195,100 @@ const HOMETOWN = {
 		{ 'No.': 10, Title: 'ボーイズ&ガールズ', Length: '4:40' },
 	],
 	description: 'Album description goes here...',
-	img: './img/Hometown.png',
+	img: '/img/Hometown.png',
 	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
+};
+
+const FEEDBACKFILE = {
+	tracks: [
+		{ 'No.': 1, Title: 'エントランス', Length: '3:58' },
+		{ 'No.': 2, Title: 'ロケットNo.4', Length: '3:42' },
+		{ 'No.': 3, Title: '絵画教室', Length: '3:23' },
+		{ 'No.': 4, Title: 'サイレン#2', Length: '6:13' },
+		{ 'No.': 5, Title: '夕暮れの紅', Length: '4:16' },
+		{ 'No.': 6, Title: 'Hold me tight', Length: '4:04' },
+		{ 'No.': 7, Title: 'ロードムービー', Length: '4:25' },
+		{ 'No.': 8, Title: '飛べない魚', Length: '2:58' },
+		{ 'No.': 9, Title: '堂々巡りの夜', Length: '2:27' },
+		{ 'No.': 10, Title: '嘘とワンダーランド', Length: '2:28' },
+		{ 'No.': 11, Title: '永遠に', Length: '3:12' },
+		{ 'No.': 12, Title: '自閉探索', Length: '3:22' },
+		{ 'No.': 13, Title: 'フラッシュバック (2004 @Shibuya-AX)', Length: '2:24' },
+		{
+			'No.': 14,
+			Title: 'アンダースタンド (2004 @ Hitachi Seaside Park)',
+			Length: '3:45',
+		},
+		{ 'No.': 15, Title: 'N.G.S (2005 @Shibuya-AX)', Length: '2:53' },
+		{ 'No.': 16, Title: 'Re:Re: (2006 @Yokohama Arena)', Length: '5:03' },
+	],
+	description: 'Album description goes here...',
+	img: '/img/Feedback File.png',
+	spotify: 'https://open.spotify.com/embed/album/4ys4lrEwbsYH5gBjU1WEsC',
+};
+const HOKAIAMPLIFIER = {
+	tracks: [
+		{ 'No.': 1, Title: '遥か彼方', Length: '4:02' },
+		{ 'No.': 2, Title: '羅針盤', Length: '2:32' },
+		{ 'No.': 3, Title: '粉雪', Length: '3:46' },
+		{ 'No.': 4, Title: '青の歌', Length: '3:52' },
+		{ 'No.': 5, Title: 'サンデイ', Length: '4:03' },
+		{ 'No.': 6, Title: '12', Length: '4:36' },
+	],
+	description: 'Album description goes here...',
+	img: '/img/Hokai Amplifier.png',
+	spotify: 'https://open.spotify.com/embed/album/1BZa5KjEDzfU2ut7QwiUHo',
+};
+const MADAMINUASHITANI = {
+	tracks: [
+		{ 'No.': 1, Title: '脈打つ生命', Length: '3:29' },
+		{ 'No.': 2, Title: 'サイエンスフィクション', Length: '2:52' },
+		{ 'No.': 3, Title: 'ムスタング', Length: '5:00' },
+		{ 'No.': 4, Title: '深呼吸', Length: '3:54' },
+		{ 'No.': 5, Title: '融雪', Length: '3:27' },
+		{ 'No.': 6, Title: '未だ見ぬ明日に', Length: '4:01' },
+	],
+	description: 'Album description goes here...',
+	img: '/img/Mada Minu Ashita Ni.png',
+	spotify: 'https://open.spotify.com/embed/album/2xqPSkjzTFEjOXrIUmj7fF',
+};
+const FEEDBACKFILE2 = {
+	tracks: [
+		{ 'No.': 1, Title: 'ローリングストーン', Length: '4:25' },
+		{ 'No.': 2, Title: 'スローダウン', Length: '5:27' },
+		{ 'No.': 3, Title: '十二進法の夕景', Length: '4:41' },
+		{ 'No.': 4, Title: '夏蝉', Length: '3:31' },
+		{ 'No.': 5, Title: '夜のコール', Length: '3:57' },
+		{ 'No.': 6, Title: '白に染めろ', Length: '3:47' },
+		{ 'No.': 1, Title: 'ムスタング', Length: '5:08' },
+		{ 'No.': 2, Title: '雨上がりの希望', Length: '3:52' },
+		{ 'No.': 3, Title: 'ひかり', Length: '6:02' },
+		{ 'No.': 4, Title: 'オールドスクール', Length: '3:05' },
+		{ 'No.': 5, Title: 'リロードリロード', Length: '1:52' },
+		{ 'No.': 6, Title: '夜を越えて', Length: '4:41' },
+		{ 'No.': 1, Title: '冷蔵庫のろくでもないジョーク', Length: '2:26' },
+		{ 'No.': 2, Title: 'ケモノノケモノ', Length: '4:05' },
+		{ 'No.': 3, Title: '今を生きて', Length: '4:50' },
+		{
+			'No.': 4,
+			Title: '迷子犬と雨のビート (2010 @Wakasu Park)',
+			Length: '4:58',
+		},
+		{
+			'No.': 5,
+			Title: 'アネモネの咲く春に (2012 @ Tokyo International Forum',
+			Length: '6:21',
+		},
+	],
+	description: 'Album description goes here...',
+	img: '/img/Feedback File 2.png',
+	spotify: 'https://open.spotify.com/embed/album/7w3E74TxKJDKzUXOcN9cxU',
 };
 
 // Below puts the objects into an array, shuffles, and picks one.
 let AKFG = [
+	HOKAIAMPLIFIER,
+	MADAMINUASHITANI,
 	KIMI_TSUNAGI_FIVE_M,
 	SOL_FA,
 	FANCLUB,
@@ -206,6 +297,8 @@ let AKFG = [
 	MAGIC_DISK,
 	LANDMARK,
 	HOMETOWN,
+	FEEDBACKFILE,
+	FEEDBACKFILE2,
 ];
 
 function createAlbum() {
