@@ -108,7 +108,7 @@ const FANCLUB = {
 		{ 'No.': 11, Title: 'タイトロープ', Length: '5:28' },
 	],
 	description: `Fanclub is the third studio album by Asian Kung-Fu Generation.  Released on March 15, 2006.`,
-	img: '/img/Fan Club.png',
+	img: './img/Fan Club.png',
 	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
 const SURF_BUNGAKU_KAMAKURA = {
@@ -127,7 +127,7 @@ const SURF_BUNGAKU_KAMAKURA = {
 	],
 	description: `Surf Bungaku Kamakura is the fifth Studio album releaseed 
 	by Asian Kung-Fu Generation, released on November 5, 2008.`,
-	img: '/img/Surf Bungaku Kamakura.png',
+	img: './img/Surf Bungaku Kamakura.png',
 	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
 };
 const WORLD_WORLD_WORLD = {
@@ -148,7 +148,7 @@ const WORLD_WORLD_WORLD = {
 		{ 'No.': 13, Title: '新しい世界', Length: '3:18' },
 	],
 	description: `World World World is Asian Kung-Fu Generation's fourth studio album, released on March 5, 2008.`,
-	img: '/img/World World World.png',
+	img: './img/World World World.png',
 	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
 const MAGIC_DISK = {
@@ -170,7 +170,7 @@ const MAGIC_DISK = {
 	],
 	description: `Magic Disk is the sixth Studio album released by
 	Asian Kung-Fu Generation, released on June 23, 2010.`,
-	img: '/img/Magic Disk.png',
+	img: './img/Magic Disk.png',
 	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
 const LANDMARK = {
@@ -191,7 +191,7 @@ const LANDMARK = {
 	],
 	description: `Landmark is the seventh studio album by Asian Kung-Fu 
 	Generation, released on September 12, 2012.`,
-	img: '/img/Landmark.png',
+	img: './img/Landmark.png',
 	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
 const WONDERFUTURE = {
@@ -211,7 +211,7 @@ const WONDERFUTURE = {
 	],
 	description: `Wonder Future is the eigth studio album by Asian 
 	Kung-Fu Generation, released on May 27, 2015.`,
-	img: '/img/wonder future.png',
+	img: './img/wonder future.png',
 	spotify: 'https://open.spotify.com/embed/album/4MU4yJK1cGOgiEloBL2KnS',
 };
 const HOMETOWN = {
@@ -230,7 +230,7 @@ const HOMETOWN = {
 	],
 	description: `Hometown is the ninth studio album by Asian Kung-Fu Generation, 
 	released on December 5, 2018.`,
-	img: '/img/Hometown.png',
+	img: './img/Hometown.png',
 	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
 };
 const FEEDBACKFILE = {
@@ -259,7 +259,7 @@ const FEEDBACKFILE = {
 	],
 	description: `Feedback file is asian Kung-Fu Generation's first compilation
 	album, released on October 25, 2006.`,
-	img: '/img/Feedback File.png',
+	img: './img/Feedback File.png',
 	spotify: 'https://open.spotify.com/embed/album/4ys4lrEwbsYH5gBjU1WEsC',
 };
 const HOKAIAMPLIFIER = {
@@ -274,7 +274,7 @@ const HOKAIAMPLIFIER = {
 	],
 	description: `Hokai Amplifier is the major-label debut EP by 
 	Asian Kung-Fu Generation, released November 25, 2002.`,
-	img: '/img/Hokai Amplifier.png',
+	img: './img/Hokai Amplifier.png',
 	spotify: 'https://open.spotify.com/embed/album/1BZa5KjEDzfU2ut7QwiUHo',
 };
 const MADAMINUASHITANI = {
@@ -289,7 +289,7 @@ const MADAMINUASHITANI = {
 	],
 	description: `Mada Minu Ashita Ni is the second major-label EP
 	released by Asian Kung-Fu Generation, released on June 11, 2008.`,
-	img: '/img/Mada Minu Ashita Ni.png',
+	img: './img/Mada Minu Ashita Ni.png',
 	spotify: 'https://open.spotify.com/embed/album/2xqPSkjzTFEjOXrIUmj7fF',
 };
 const FEEDBACKFILE2 = {
@@ -323,7 +323,7 @@ const FEEDBACKFILE2 = {
 	],
 	description: `Feedback File 2 is the third compilation album by Asian Kung-Fu Generation, 
 	released on Febuary 26, 2014.`,
-	img: '/img/Feedback File 2.png',
+	img: './img/Feedback File 2.png',
 	spotify: 'https://open.spotify.com/embed/album/7w3E74TxKJDKzUXOcN9cxU',
 };
 
