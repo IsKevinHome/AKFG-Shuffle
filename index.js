@@ -301,15 +301,15 @@ const FEEDBACKFILE2 = {
 		{ 'No.': 4, Title: '夏蝉', Length: '3:31' },
 		{ 'No.': 5, Title: '夜のコール', Length: '3:57' },
 		{ 'No.': 6, Title: '白に染めろ', Length: '3:47' },
-		{ 'No.': 1, Title: 'ムスタング', Length: '5:08' },
-		{ 'No.': 2, Title: '雨上がりの希望', Length: '3:52' },
-		{ 'No.': 3, Title: 'ひかり', Length: '6:02' },
-		{ 'No.': 4, Title: 'オールドスクール', Length: '3:05' },
-		{ 'No.': 5, Title: 'リロードリロード', Length: '1:52' },
-		{ 'No.': 6, Title: '夜を越えて', Length: '4:41' },
-		{ 'No.': 1, Title: '冷蔵庫のろくでもないジョーク', Length: '2:26' },
-		{ 'No.': 2, Title: 'ケモノノケモノ', Length: '4:05' },
-		{ 'No.': 3, Title: '今を生きて', Length: '4:50' },
+		{ 'No.': 7, Title: 'ムスタング', Length: '5:08' },
+		{ 'No.': 8, Title: '雨上がりの希望', Length: '3:52' },
+		{ 'No.': 9, Title: 'ひかり', Length: '6:02' },
+		{ 'No.': 10, Title: 'オールドスクール', Length: '3:05' },
+		{ 'No.': 11, Title: 'リロードリロード', Length: '1:52' },
+		{ 'No.': 12, Title: '夜を越えて', Length: '4:41' },
+		{ 'No.': 13, Title: '冷蔵庫のろくでもないジョーク', Length: '2:26' },
+		{ 'No.': 14, Title: 'ケモノノケモノ', Length: '4:05' },
+		{ 'No.': 15, Title: '今を生きて', Length: '4:50' },
 		{
 			'No.': 4,
 			Title: '迷子犬と雨のビート (2010 @Wakasu Park)',
@@ -326,9 +326,24 @@ const FEEDBACKFILE2 = {
 	img: './img/Feedback File 2.png',
 	spotify: 'https://open.spotify.com/embed/album/7w3E74TxKJDKzUXOcN9cxU',
 };
+const CANTSLEEPEP = {
+	title: "Can't Sleep EP",
+	tracks: [
+		{ 'No.': 1, Title: 'スリープ', Length: '3:14' },
+		{ 'No.': 2, Title: '廃墟の記憶', Length: '4:25' },
+		{ 'No.': 3, Title: 'イエロー', Length: '2:57' },
+		{ 'No.': 4, Title: 'はじまりの季節', Length: '3:14' },
+		{ 'No.': 5, Title: '生者のマーチ', Length: '4:42' },
+	],
+	description: `Can't Sleep EP was released alongside Asian Kung-Fu Generation's ninth Studio
+	album "Hometown", on December 5, 2018.`,
+	img: './img/cant_sleep_ep.png',
+	spotify: 'https://open.spotify.com/embed/album/1jt21UeyX5y6OmjnVX61NX',
+};
 
 // Below puts the objects into an array, shuffles, and picks one.
 let AKFG = [
+	CANTSLEEPEP,
 	HOKAIAMPLIFIER,
 	MADAMINUASHITANI,
 	KIMI_TSUNAGI_FIVE_M,
