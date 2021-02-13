@@ -15,22 +15,34 @@
 	align-items: center;
 }
 
+#albumTitle {
+	text-align: center;
+	font-style: italic;
+	margin: auto;
+	padding: 0;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #232627;
+}
 #image {
 	width: 450px;
 }
+
 #content div {
 	padding: 10px;
 }
 
 .descrip {
-	margin: auto;
+	margin: 5px auto;
 	justify-content: center;
-	width: 500px;
+	width: 730px;
 }
 
 #descrip {
 	text-align: center;
-	padding: 5px 15px 5px 15px;
+	padding: 10px 15px 5px 15px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 16px;
+	margin: auto;
 }
 .player {
 	display: flex;
@@ -58,11 +70,11 @@ th {
 .button {
 	display: flex;
 	justify-content: center;
-	padding: 15px;
+	padding: 10px;
 }
-
+/*
 #button {
-	color: #151515 !important;
+	color: #414a4c !important;
 	text-transform: uppercase;
 	background: #ffffff;
 	padding: 20px;
@@ -78,4 +90,26 @@ th {
 	border-radius: 50px;
 	border-color: #494949 !important;
 	transition: all 0.3s ease 0s;
+}
+*/
+#button {
+	padding: 10px 15px;
+	margin: 0 0.3em 0.3em 0;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s;
+	border: 0.5px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+#button:hover {
+	transition: all 0.3s ease 0s;
+	transform: scale(1.025);
+}
+
+#button:active {
+	color: rgb(98, 98, 98);
+	border: 0.5px solid rgb(98, 98, 98);
+	transform: scale(1.1);
 }

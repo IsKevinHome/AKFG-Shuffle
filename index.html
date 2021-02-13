@@ -5,12 +5,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Asian Kung-Fu Generation</title>
 		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<div class="button">
 			<button onclick="createAlbum()" id="button">
 				What Asian Kung-Fu Generation album should I listen to?
 			</button>
+		</div>
+		<div class="descrip">
+			<h1 id="albumTitle"></h1>
+			<p id="descrip"></p>
 		</div>
 		<div id="content">
 			<div class="horiz">
@@ -19,10 +28,6 @@
 			<div class="horiz">
 				<table id="tracks"></table>
 			</div>
-		</div>
-
-		<div class="descrip">
-			<p id="descrip"></p>
 		</div>
 
 		<div class="player">

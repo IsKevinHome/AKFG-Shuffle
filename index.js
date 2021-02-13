@@ -35,18 +35,22 @@ function genAlbum(object) {
 	albumArt.src = object.img;
 
 	//generates our description
-
 	let about = document.getElementById('descrip');
-	about.innerHTML = object.description;
-	// running this will make it so the table is it's own thing
+	about.textContent = object.description;
 
+	//spotify link
 	let spotify = document.getElementById('player');
 	spotify.src = object.spotify;
 
+	let albumTitle = document.getElementById('albumTitle');
+	albumTitle.textContent = object.title;
+	// enabling this return will make the table repeat upon click
 	// return table;
 }
 
+// These are our album objects:
 const KIMI_TSUNAGI_FIVE_M = {
+	title: 'Kimi Tsunagi Five M',
 	tracks: [
 		{ 'No.': 1, Title: 'フラッシュバック', Length: '1:58' },
 		{ 'No.': 2, Title: '未来の破片', Length: '4:45' },
@@ -62,13 +66,12 @@ const KIMI_TSUNAGI_FIVE_M = {
 		{ 'No.': 12, Title: 'ノーネーム', Length: '5:00' },
 	],
 	description: `Asian Kung-Fu Generation’s first studio album, and their second major-label
-	release.  Released on November 19, 2003.  The album released two
-	successful singles in Mirai No Kakera and Kimi To Iu Hana, and went
-	on to sell over 250,000 copies.  `,
+	release.  Released on November 19, 2003. `,
 	img: './img/Kimi_Tsunagi_Five_M.png',
 	spotify: 'https://open.spotify.com/embed/album/3j2n8ZYCGF2vBG0FlNLySB',
 };
 const SOL_FA = {
+	title: 'Sol-fa',
 	tracks: [
 		{ 'No.': 1, Title: '振動', Length: '2:27' },
 		{ 'No.': 2, Title: 'リライト', Length: '3:47' },
@@ -83,11 +86,14 @@ const SOL_FA = {
 		{ 'No.': 11, Title: '海岸通り', Length: '4:40' },
 		{ 'No.': 12, Title: 'ループ&ループ', Length: '3:45' },
 	],
-	description: 'Album description goes here...',
-	img: './img/sol-Fa.png',
+	description: `Sol-fa is the second studio album by Asian Kung-Fu Generation.  
+	Release on October 20, 2004.  Sol-fa had four single releases: "サイレン", "ループ&ループ", "リライト", and "君の街まで".`,
+	img: '/img/sol-fa.png',
 	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
 const FANCLUB = {
+	title: 'Fanclub',
+
 	tracks: [
 		{ 'No.': 1, Title: '暗号のワルツ', Length: '4:25' },
 		{ 'No.': 2, Title: 'ワールドアパート', Length: '4:29' },
@@ -101,11 +107,31 @@ const FANCLUB = {
 		{ 'No.': 10, Title: '月光', Length: '6:22' },
 		{ 'No.': 11, Title: 'タイトロープ', Length: '5:28' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Fan Club.png',
+	description: `Fanclub is the third studio album by Asian Kung-Fu Generation.  Released on March 15, 2006.`,
+	img: '/img/Fan Club.png',
 	spotify: 'https://open.spotify.com/embed/album/5oA5jyMLX7pLpYGUwhmjL5',
 };
+const SURF_BUNGAKU_KAMAKURA = {
+	title: 'Surf Bungaku Kamakura',
+	tracks: [
+		{ 'No.': 1, Title: '藤沢ルーザー', Length: '2:45' },
+		{ 'No.': 2, Title: '鵠沼サーフ', Length: '2:28' },
+		{ 'No.': 3, Title: '江ノ島エスカー', Length: '2:39' },
+		{ 'No.': 4, Title: '腰越クライベイビー', Length: '3:54' },
+		{ 'No.': 5, Title: '七里ヶ浜スカイウォーク', Length: '2:50' },
+		{ 'No.': 6, Title: '稲村ヶ崎ジェーン', Length: '3:09' },
+		{ 'No.': 7, Title: '極楽寺ハートブレイク', Length: '2:21' },
+		{ 'No.': 8, Title: '長谷サンズ', Length: '2:56' },
+		{ 'No.': 9, Title: '由比ヶ浜カイト', Length: '3:54' },
+		{ 'No.': 10, Title: '鎌倉グッドバイ', Length: '4:31' },
+	],
+	description: `Surf Bungaku Kamakura is the fifth Studio album releaseed 
+	by Asian Kung-Fu Generation, released on November 5, 2008.`,
+	img: '/img/Surf Bungaku Kamakura.png',
+	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
+};
 const WORLD_WORLD_WORLD = {
+	title: 'World World World',
 	tracks: [
 		{ 'No.': 1, Title: 'ワールド ワールド ワールド', Length: '1:18' },
 		{ 'No.': 2, Title: 'アフターダーク', Length: '3:12' },
@@ -121,28 +147,12 @@ const WORLD_WORLD_WORLD = {
 		{ 'No.': 12, Title: '或る街の群青', Length: '4:16' },
 		{ 'No.': 13, Title: '新しい世界', Length: '3:18' },
 	],
-	description: 'Album description goes here...',
-	img: './img/World World World.png',
+	description: `World World World is Asian Kung-Fu Generation's fourth studio album, released on March 5, 2008.`,
+	img: '/img/World World World.png',
 	spotify: 'https://open.spotify.com/embed/album/6ZcU0MGlWn9oc4dEhY1TEI',
 };
-const SURF_BUNGAKU_KAMAKURA = {
-	tracks: [
-		{ 'No.': 1, Title: '藤沢ルーザー', Length: '2:45' },
-		{ 'No.': 2, Title: '鵠沼サーフ', Length: '2:28' },
-		{ 'No.': 3, Title: '江ノ島エスカー', Length: '2:39' },
-		{ 'No.': 4, Title: '腰越クライベイビー', Length: '3:54' },
-		{ 'No.': 5, Title: '七里ヶ浜スカイウォーク', Length: '2:50' },
-		{ 'No.': 6, Title: '稲村ヶ崎ジェーン', Length: '3:09' },
-		{ 'No.': 7, Title: '極楽寺ハートブレイク', Length: '2:21' },
-		{ 'No.': 8, Title: '長谷サンズ', Length: '2:56' },
-		{ 'No.': 9, Title: '由比ヶ浜カイト', Length: '3:54' },
-		{ 'No.': 10, Title: '鎌倉グッドバイ', Length: '4:31' },
-	],
-	description: 'Album description goes here...',
-	img: '/img/Surf Bungaku Kamakura.png',
-	spotify: 'https://open.spotify.com/embed/album/3ovX8G9Sop8sZCuAcj0lS9',
-};
 const MAGIC_DISK = {
+	title: 'Magic Disk',
 	tracks: [
 		{ 'No.': 1, Title: '新世紀のラブソング', Length: '5:14' },
 		{ 'No.': 2, Title: 'マジックディスク', Length: '4:37' },
@@ -158,11 +168,13 @@ const MAGIC_DISK = {
 		{ 'No.': 12, Title: '橙', Length: '4:14' },
 		{ 'No.': 13, Title: 'ソラニン', Length: '4:33' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Magic Disk.png',
+	description: `Magic Disk is the sixth Studio album released by
+	Asian Kung-Fu Generation, released on June 23, 2010.`,
+	img: '/img/Magic Disk.png',
 	spotify: 'https://open.spotify.com/embed/album/1Pz6ADZaTvqTSUBC2ux7oI',
 };
 const LANDMARK = {
+	title: 'Landmark',
 	tracks: [
 		{ 'No.': 1, Title: 'All Right Part 2', Length: '3:34' },
 		{ 'No.': 2, Title: 'N2', Length: '3:06' },
@@ -177,11 +189,33 @@ const LANDMARK = {
 		{ 'No.': 11, Title: '踵で愛を打ち鳴らせ', Length: '4:23' },
 		{ 'No.': 12, Title: 'アネモネの咲く春に', Length: '5:01' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Landmark.png',
+	description: `Landmark is the seventh studio album by Asian Kung-Fu 
+	Generation, released on September 12, 2012.`,
+	img: '/img/Landmark.png',
 	spotify: 'https://open.spotify.com/embed/album/6n9dzumIiKUunv4pYJiEK7',
 };
+const WONDERFUTURE = {
+	title: 'Wonder Future',
+	tracks: [
+		{ 'No.': 1, Title: '復活祭', Length: '3:00' },
+		{ 'No.': 2, Title: '小さなレノン', Length: '4:02' },
+		{ 'No.': 3, Title: '勝者と敗者', Length: '4:03' },
+		{ 'No.': 4, Title: '芋虫', Length: '3:34' },
+		{ 'No.': 5, Title: '永遠の陽光', Length: '4:59' },
+		{ 'No.': 6, Title: '猿の惑星', Length: '2:13' },
+		{ 'No.': 7, Title: 'スタンダード', Length: '4:20' },
+		{ 'No.': 8, Title: 'ワンダーフューチャー', Length: '4:14' },
+		{ 'No.': 9, Title: '額の中の囚人', Length: '4:37' },
+		{ 'No.': 10, Title: '街頭のシグナル', Length: '4:19' },
+		{ 'No.': 11, Title: 'オペラグラス', Length: '4:45' },
+	],
+	description: `Wonder Future is the eigth studio album by Asian 
+	Kung-Fu Generation, released on May 27, 2015.`,
+	img: '/img/wonder future.png',
+	spotify: 'https://open.spotify.com/embed/album/4MU4yJK1cGOgiEloBL2KnS',
+};
 const HOMETOWN = {
+	title: 'Hometown',
 	tracks: [
 		{ 'No.': 1, Title: 'クロックワーク', Length: '4:02' },
 		{ 'No.': 2, Title: 'ホームタウン', Length: '2:57' },
@@ -194,11 +228,13 @@ const HOMETOWN = {
 		{ 'No.': 9, Title: 'さようならソルジャー', Length: '4:23' },
 		{ 'No.': 10, Title: 'ボーイズ&ガールズ', Length: '4:40' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Hometown.png',
+	description: `Hometown is the ninth studio album by Asian Kung-Fu Generation, 
+	released on December 5, 2018.`,
+	img: '/img/Hometown.png',
 	spotify: 'https://open.spotify.com/embed/album/3wmz5LudXtskEIT87Jn8S4',
 };
 const FEEDBACKFILE = {
+	title: 'Feedback File',
 	tracks: [
 		{ 'No.': 1, Title: 'エントランス', Length: '3:58' },
 		{ 'No.': 2, Title: 'ロケットNo.4', Length: '3:42' },
@@ -221,11 +257,13 @@ const FEEDBACKFILE = {
 		{ 'No.': 15, Title: 'N.G.S (2005 @Shibuya-AX)', Length: '2:53' },
 		{ 'No.': 16, Title: 'Re:Re: (2006 @Yokohama Arena)', Length: '5:03' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Feedback File.png',
+	description: `Feedback file is asian Kung-Fu Generation's first compilation
+	album, released on October 25, 2006.`,
+	img: '/img/Feedback File.png',
 	spotify: 'https://open.spotify.com/embed/album/4ys4lrEwbsYH5gBjU1WEsC',
 };
 const HOKAIAMPLIFIER = {
+	title: 'Hokai Amplifier',
 	tracks: [
 		{ 'No.': 1, Title: '遥か彼方', Length: '4:02' },
 		{ 'No.': 2, Title: '羅針盤', Length: '2:32' },
@@ -234,11 +272,13 @@ const HOKAIAMPLIFIER = {
 		{ 'No.': 5, Title: 'サンデイ', Length: '4:03' },
 		{ 'No.': 6, Title: '12', Length: '4:36' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Hokai Amplifier.png',
+	description: `Hokai Amplifier is the major-label debut EP by 
+	Asian Kung-Fu Generation, released November 25, 2002.`,
+	img: '/img/Hokai Amplifier.png',
 	spotify: 'https://open.spotify.com/embed/album/1BZa5KjEDzfU2ut7QwiUHo',
 };
 const MADAMINUASHITANI = {
+	title: 'Mada Minu Ashita Ni',
 	tracks: [
 		{ 'No.': 1, Title: '脈打つ生命', Length: '3:29' },
 		{ 'No.': 2, Title: 'サイエンスフィクション', Length: '2:52' },
@@ -247,11 +287,13 @@ const MADAMINUASHITANI = {
 		{ 'No.': 5, Title: '融雪', Length: '3:27' },
 		{ 'No.': 6, Title: '未だ見ぬ明日に', Length: '4:01' },
 	],
-	description: 'Album description goes here...',
-	img: './img/Mada Minu Ashita Ni.png',
+	description: `Mada Minu Ashita Ni is the second major-label EP
+	released by Asian Kung-Fu Generation, released on June 11, 2008.`,
+	img: '/img/Mada Minu Ashita Ni.png',
 	spotify: 'https://open.spotify.com/embed/album/2xqPSkjzTFEjOXrIUmj7fF',
 };
 const FEEDBACKFILE2 = {
+	title: 'Feedback File 2',
 	tracks: [
 		{ 'No.': 1, Title: 'ローリングストーン', Length: '4:25' },
 		{ 'No.': 2, Title: 'スローダウン', Length: '5:27' },
@@ -279,8 +321,9 @@ const FEEDBACKFILE2 = {
 			Length: '6:21',
 		},
 	],
-	description: 'Album description goes here...',
-	img: './img/Feedback File 2.png',
+	description: `Feedback File 2 is the third compilation album by Asian Kung-Fu Generation, 
+	released on Febuary 26, 2014.`,
+	img: '/img/Feedback File 2.png',
 	spotify: 'https://open.spotify.com/embed/album/7w3E74TxKJDKzUXOcN9cxU',
 };
 
@@ -295,6 +338,7 @@ let AKFG = [
 	SURF_BUNGAKU_KAMAKURA,
 	MAGIC_DISK,
 	LANDMARK,
+	WONDERFUTURE,
 	HOMETOWN,
 	FEEDBACKFILE,
 	FEEDBACKFILE2,
