@@ -88,7 +88,7 @@ const SOL_FA = {
 	],
 	description: `Sol-fa is the second studio album by Asian Kung-Fu Generation.  
 	Release on October 20, 2004.  Sol-fa had four single releases: "サイレン", "ループ&ループ", "リライト", and "君の街まで".`,
-	img: '/img/sol-fa.png',
+	img: './img/sol-fa.png',
 	spotify: 'https://open.spotify.com/embed/album/56xQzwz8VKC3LOtvrI4g04',
 };
 const FANCLUB = {
